@@ -1,0 +1,23 @@
+[
+  {
+    "patientId": "1730252592522",
+    "patientInfo": "",
+    "medicalNotes": "asdf",
+    "complaints": "Hi, I have nose bleeding, what should I do?",
+    "timestamp": "2024-10-30T01:43:12.531Z"
+  },
+  {
+    "patientId": "1730252836423",
+    "patientInfo": "",
+    "medicalNotes": "he's okay",
+    "complaints": "Hi, I have nose bleeding, what should I do?",
+    "timestamp": "2024-10-30T01:47:16.433Z"
+  },
+  {
+    "patientId": "1730252855924",
+    "patientInfo": "",
+    "medicalNotes": "he's dead",
+    "complaints": "Hi, I have nose bleeding, what should I do?",
+    "timestamp": "2024-10-30T01:47:35.928Z"
+  }
+]

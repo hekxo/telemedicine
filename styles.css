@@ -1,0 +1,131 @@
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #d6f8b0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Accordion styling */
+.accordion {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-header {
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.accordion-content {
+    padding: 15px;
+    display: none;
+    background-color: #f9f9f9;
+}
+
+/* Main content styling */
+.main-content {
+    width: 70%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.split-section {
+    flex: 1;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+}
+
+.video-call {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Styling for editable Appointment Medical Notes */
+.notes h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.notes textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    outline: none;
+}
+
+.footer {
+    background-color: #666;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: auto;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.contact-info, .about-us {
+    width: 45%;
+}
